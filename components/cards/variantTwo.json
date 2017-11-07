@@ -1,0 +1,4 @@
+{
+  "html": "<div class=\"card\"><div class=\"card__content\"><p class=\"card__content-heading\">Heading</p><a href=\"/\"class=\"card__content-action\">Take Action >></a></div></div>",
+  "css": ".card{border-radius:0 0 .3rem .3rem;-webkit-box-shadow:0 .4rem 1.2rem 0 hsla(0,0%,4%,.1);box-shadow:0 .4rem 1.2rem 0 hsla(0,0%,4%,.1)}.card__content{padding:2rem 1.6rem}.card__content-heading{font-size:1.7rem;font-weight:400;margin-bottom:1.4rem}.card__content-action{color:#000;font-size:1.5rem}"
+ }
