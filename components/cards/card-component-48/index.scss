@@ -1,0 +1,58 @@
+$subHeadingColor: #888888;
+$actionColor: #000000;
+
+.card {
+	&__content {
+		margin-top: 1.4rem;
+		&-options {
+			font-size: 1.2rem;
+			margin-bottom: .8rem;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		&-heading {
+			color: $actionColor;
+			font-size: 1.3;
+			margin-bottom: .8rem;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		&-price {
+			font-size: 1.2rem;
+			margin-bottom: .9rem;
+			text-align: center;
+			text-transform: uppercase;
+		}
+		&-options {
+			margin-bottom: .8rem;
+		}
+		&-choices {
+			text-align: center;
+			margin-bottom: 1.2rem;
+		}
+		&-colors {
+			&.-color1 {
+				@include circle(1.4);
+
+				background: pink;
+				display: inline-block;
+				margin-right: 1rem;
+
+			}
+			&.-color2 {
+				@include circle(1.4);
+
+				background: $subHeadingColor;
+				display: inline-block;
+				margin-right: 1rem;
+			}
+			&.-color3 {
+				@include circle(1.4);
+
+				background:$actionColor;
+				display: inline-block;
+				margin-right: 1rem;
+			}
+		}
+	}
+}

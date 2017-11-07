@@ -1,0 +1,32 @@
+$subHeadingColor: #888888;
+$actionColor: #000000;
+$boxShadow: 0 .4rem 1.2rem 0 rgba(10,10,10,0.10);
+
+.card {
+	border-radius: .3rem;
+	box-shadow: $boxShadow;
+	&__content {
+		padding: 2rem 1.6rem 2rem 1.6rem;
+		&-heading {
+			font-size: 1.7rem;
+			font-weight: 400;
+			margin-bottom: .4rem;
+		}
+		&-subheading {
+			color: $subHeadingColor;
+			font-size: 1.4rem;
+			font-weight: 400;
+			margin-bottom: 1rem;
+		}
+		&-description {
+			font-size: 1.5rem;
+		}
+		&-action {
+			color: $actionColor;
+			font-size: 1.5rem;
+			&::after {
+			// Add any icon styles here //
+			}
+		}
+	}
+}

@@ -1,0 +1,4 @@
+{
+    "css": ".card{border-radius:.3rem;-webkit-box-shadow:0 .4rem 1.2rem 0 hsla(0,0%,4%,.1);box-shadow:0 .4rem 1.2rem 0 hsla(0,0%,4%,.1)}.card__content{padding:2rem 1.6rem}.card__content-heading{font-size:1.7rem;font-weight:400;margin-bottom:.4rem}.card__content-subheading{color:#888;font-size:1.4rem;font-weight:400;margin-bottom:1rem}.card__content-description{font-size:1.5rem}.card__content-action{color:#000;font-size:1.5rem}",
+    "html": "<div class=\"card\">\n\t<div class=\"card__content\">\n\t\t<p class=\"card__content-heading\">Heading</p>\n\t\t<p class=\"card__content-subheading\">Subheading</p>\n\t\t<p class=\"card__content-description\">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi ultrices sem dolor.</p>\n\t\t<a href=\"/\" class=\"card__content-action\">Take Action &gt;&gt;</a>\n\t</div>\n</div>\n\t"
+}

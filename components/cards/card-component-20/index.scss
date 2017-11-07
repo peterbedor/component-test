@@ -1,0 +1,47 @@
+$subHeadingColor: #888888;
+$actionColor: #000000;
+$boxShadow: 0 .4rem 1.2rem 0 rgba(10,10,10,0.10);
+
+.card {
+	border-radius: .3rem;
+	box-shadow: $boxShadow;
+	padding-bottom: 2rem;
+	&__image {
+		display: inline-block;
+		height: 8.8rem;
+		width: 8.8rem;
+	}
+	&__img {
+		height: 100%;
+		width: 100%;
+		margin-top: 2.2rem;
+		margin-left: 1.6rem;
+	}
+	&__content {
+		padding: 0 0 0 2.6rem;
+		&.-meta {
+			display: inline-block;
+			vertical-align: top;
+		}
+		&-heading {
+			color: $actionColor;
+			font-size: 1.7rem;
+			font-weight: 400;
+			margin-top: 2.2rem;
+			margin-bottom: 1rem;
+		}
+		&-description {
+			color: $actionColor;
+			font-size: 1.4rem;
+		}
+		&-action {
+			color: $actionColor;
+			display: block;
+			font-size: 1.5rem;
+			margin: 1.4rem 0 0 1.6rem;
+			&::after {
+				// Add any icon styles here //
+			}
+		}
+	}
+}

@@ -1,0 +1,54 @@
+$subHeadingColor: #888888;
+$actionColor: #000000;
+
+.card {
+	border-radius: .3rem;
+	box-shadow: 0 .44rem 1.2rem 0 rgba(10,10,10,0.10);
+	&__image {
+		position: relative;
+		&.-small {
+			@include circle(4.4);
+
+			display: inline-block;
+			margin: 2rem 0 0 1.6rem;
+			vertical-align: middle;
+		}
+	}
+	&__img {
+		border-radius: .3rem .3rem 0 0;
+	}
+	&__content {
+		&.-top {
+			@include absolute(0);
+
+			border-radius: .3rem .3rem 0 0;
+			display: inline-block;
+		}
+		&.-bottom {
+			padding: 2rem 0 2rem 1.6rem;
+		}
+		&.-meta {
+			display: inline-block;
+			margin-left: 1.6rem;
+		}
+		&-heading {
+			color: white;
+			font-size: 1.7rem;
+			margin-bottom: 0;
+		}
+		&-subheading {
+			color: white;
+			font-size: 1.4rem;
+			margin-bottom: 0;
+		}
+		&-description {
+			color: $actionColor;
+			font-size: 1.5rem;
+			margin-bottom: 1.4rem;
+		}
+		&-action {
+			color: black;
+			margin-right: 1.6rem;
+		}
+	}
+}

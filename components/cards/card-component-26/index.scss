@@ -1,0 +1,45 @@
+$subHeadingColor: #888888;
+$actionColor: #000000;
+$boxShadow: 0 .4rem 1.2rem 0 rgba(10,10,10,0.10);
+
+.card {
+	border-radius: .3rem;
+	box-shadow: $boxShadow;
+	&__img {
+		height: 100%;
+		width: 100%;
+		&.-full {
+			margin-bottom: 2.2rem;
+			height: 24.3rem;
+		}
+		&.-small {
+			@include circle(4.4rem);
+			
+			display: inline-block;
+			margin-top: 2.2rem;
+		}
+	}
+	&__content {
+		padding: 0 0 2rem 1.6rem;
+		&-heading {
+			color: $actionColor;
+			display: inline-block;
+			font-size: 1.7rem;
+			font-weight: 400;
+			margin: 3.4rem 0 0 1.6rem;
+			vertical-align: top;
+		}
+		&.-bottom {
+			padding-bottom: 3.3rem;
+		}
+		&-action {
+			color: $actionColor;
+			float: right;
+			font-size: 1.5rem;
+			margin: 0 1.6rem 2rem 0;
+			&::after {
+				// Add any icon styles here //
+			}
+		}
+	}
+}

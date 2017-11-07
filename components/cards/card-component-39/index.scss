@@ -1,0 +1,30 @@
+$subHeadingColor: #888888;
+$actionColor: #000000;
+$boxShadow: 0 .44rem 1.2rem 0 rgba(10,10,10,0.10);
+
+.card {
+	border-radius: .3rem;
+	box-shadow: $boxShadow;
+	&__content {
+		&.-meta {
+			margin-left: 1.6rem;
+			padding: 2rem 0 2rem 0;
+		}
+		&-heading {
+			color: $actionColor;
+			margin-bottom: 0rem;
+		}
+		&-subheading {
+			color: $subHeadingColor;
+			margin-bottom: 0;
+		}
+		&-price {
+			margin-right: 1.6rem;
+			margin-bottom: 0;
+		}
+		&.-flex {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+}
